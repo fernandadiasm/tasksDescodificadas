@@ -11,9 +11,16 @@
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.area {
+    display: grid;
+    grid-template-columns: repeat(6, 6fr);
+    gap: 0;
 }
 
 
@@ -21,7 +28,7 @@ main {
     width: 200px;
     height: 200px;
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
   }
   
   .red {

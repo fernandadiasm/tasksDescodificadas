@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.corpo {
+    background-color: #444444;
+    padding: 16px;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.vermelho {
+    background-color: #cc2a2a;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-column: span 2;
+}
+
+.verde {
+    background-color: #45cc2a;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-row: 1 / span 2;
+    grid-column: 4;
+}
+
+.laranja {
+    background-color: #cc5d2a;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-row: 3 / span 1;
+    grid-column: 4;
+}
+
+.azul {
+    background-color: #2aa6cc;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-column: span 2;
+    grid-row: 1 / span 3;
+}
+
+.azul-escuro {
+    background-color: #352acc;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.rosa {
+    background-color: #cc2a96;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+.roxo {
+    background-color: #682acc;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-column: span 1;
+}
+
+.amarelo {
+    background-color: #ccb42a;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-row: 4 / span 2;
+    grid-column: 4 / span 1;
+}
+
+.rosa-claro {
+    background-color: #eb70e0;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-row: span 1;
+    grid-column: 2 / span 2;
+}
+
+.verde-escuro {
+    background-color: #70eb95;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-row: 5;
+    grid-column: span 1 ;
+}

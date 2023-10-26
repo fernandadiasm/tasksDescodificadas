@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #675D50;
+    background-color: #96897a9a;
     text-decoration: none;
 }
 
@@ -26,6 +26,10 @@ main {
 }
 
 .title {
+    color: #fff;
+    margin: 2rem 0;
+}
+.subtitle {
     color: #fff;
     margin: 2rem 0;
 }

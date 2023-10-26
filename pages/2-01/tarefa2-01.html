@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 7 - Carrossel</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Carrossel</h1>
+
+    <p>Criado apenas com HTML e CSS.</p>
+
+    <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+            <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                <div class="carousel__snapper">
+                    <a href="#carousel__slide4" class="carousel__prev">Anterior</a>
+                    <a href="#carousel__slide2" class="carousel__next">Próximo</a>
+                </div>
+            </li>
+            <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide1" class="carousel__prev">Anterior</a>
+                <a href="#carousel__slide3" class="carousel__next">Próximo</a>
+            </li>
+            <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide2" class="carousel__prev">Anterior</a>
+                <a href="#carousel__slide4" class="carousel__next">Próximo</a>
+            </li>
+            <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide3" class="carousel__prev">Anterior</a>
+                <a href="#carousel__slide1" class="carousel__next">Próximo</a>
+            </li>
+        </ol>
+        <aside class="carousel__navigation">
+            <ol class="carousel__navigation-list">
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide1" class="carousel__navigation-button">Slide 1</a>
+                </li>
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide2" class="carousel__navigation-button">Slide 2</a>
+                </li>
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide3" class="carousel__navigation-button">Slide 3</a>
+                </li>
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide4" class="carousel__navigation-button">Slide 4</a>
+                </li>
+            </ol>
+        </aside>
+    </section>
+</body>
+
+</html>

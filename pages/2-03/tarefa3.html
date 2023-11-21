@@ -7,11 +7,11 @@
   <script>
     function calcularMedia() {
       // Pega os valores dos campos de entrada
-      var numero1 = parseFloat(document.getElementById('numero1').value);
-      var numero2 = parseFloat(document.getElementById('numero2').value);
-      var numero3 = parseFloat(document.getElementById('numero3').value);
-      var numero4 = parseFloat(document.getElementById('numero4').value);
-      var numero5 = parseFloat(document.getElementById('numero5').value);
+      const numero1 = parseFloat(document.getElementById('numero1').value);
+      const numero2 = parseFloat(document.getElementById('numero2').value);
+      const numero3 = parseFloat(document.getElementById('numero3').value);
+      const numero4 = parseFloat(document.getElementById('numero4').value);
+      const numero5 = parseFloat(document.getElementById('numero5').value);
 
       // Verifica se os valores informados são válidos
       if (isNaN(numero1) || isNaN(numero2) || isNaN(numero3) || isNaN(numero4) || isNaN(numero5)) {
@@ -20,13 +20,13 @@
       }
 
       // Calcula a média aritmética
-      var media = (numero1 + numero2 + numero3 + numero4 + numero5) / 5;
+      const media = (numero1 + numero2 + numero3 + numero4 + numero5) / 5;
 
       // Exibe o resultado
       document.getElementById('resultado').innerHTML = 'A média é: ' + media;
     }
   </script>
-  
+
 </head>
 <body>
   <h1>Calculadora de Média</h1>
